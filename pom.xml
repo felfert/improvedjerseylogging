@@ -29,12 +29,12 @@
     </licenses>
 
     <scm>
-        <developerConnection>scm:git:git@git.dataspace.cc:gds2/improvedjerseylogging.git</developerConnection>
+        <developerConnection>git@github.com:OpenDataSpace/improvedjerseylogging.git</developerConnection>
     </scm>
 
     <organization>
-        <name>GRAU DATA AG</name>
-        <url>http://www.graudata.com</url>
+        <name>OpenDataSpace</name>
+        <url>https://github.com/OpenDataSpace</url>
     </organization>
 
     <developers>
