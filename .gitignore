@@ -1,0 +1,7 @@
+*.swp
+.checkstyle
+.fbExcludeFilterFile
+.pmd
+.pmdruleset.xml
+.settings/edu.umd.cs.findbugs.core.prefs
+target/
