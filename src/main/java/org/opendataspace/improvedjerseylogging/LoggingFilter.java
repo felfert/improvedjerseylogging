@@ -60,7 +60,7 @@ public class LoggingFilter implements ContainerRequestFilter, ClientRequestFilte
 
     private static final int LF = 10;
     private static final int CR = 13;
-    private static final String MORE = "...more (%d bytes total)...";
+    private static final String MORE = "...more...";
 
     // Unfortunately, org.glassfish.jersey.filter.LoggingFilter is final, so A LOT of redundant code follows... :-(
 
@@ -208,7 +208,7 @@ public class LoggingFilter implements ContainerRequestFilter, ClientRequestFilte
         final int entitySize = is.read(entity);
         wireFilter(b, new String(entity, 0, Math.min(entitySize, maxEntitySize), charset));
         if (entitySize > maxEntitySize) {
-            b.append(String.format(MORE, entitySize));
+            b.append(MORE);
         }
         b.append('\n');
         is.reset();
@@ -320,7 +320,7 @@ public class LoggingFilter implements ContainerRequestFilter, ClientRequestFilte
 
             wireFilter(b, new String(entity, 0, Math.min(entity.length, maxEntitySize), charset));
             if (entity.length > maxEntitySize) {
-                b.append(String.format(MORE, entity.length));
+                b.append(MORE);
             }
             b.append('\n');
 
