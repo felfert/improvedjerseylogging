@@ -16,7 +16,7 @@
     <groupId>org.opendataspace</groupId>
     <artifactId>improvedjerseylogging</artifactId>
     <name>Improved request logging for jersey</name>
-    <version>1.3</version>
+    <version>1.49</version>
     <description>A better logging filter for Jersey</description>
     <url>https://jenkins.cl1.dataspace.cc/job/improvedjerseylogging</url>
 
