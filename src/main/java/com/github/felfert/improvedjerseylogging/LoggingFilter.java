@@ -1,4 +1,4 @@
-package org.opendataspace.improvedjerseylogging;
+package com.github.felfert.improvedjerseylogging;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
@@ -38,19 +38,16 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Enhanced logging filter.
- * <p/>
+ *
  * Drop-in replacement for
  * <a href="https://jersey.java.net/apidocs/latest/jersey/org/glassfish/jersey/filter/LoggingFilter.html">org.glassfish.jersey.filter.LoggingFilter</a>.
- * Improves logging with the following feature:<p/><ul>
+ * Improves logging with the following feature:
+ * <ul>
  * <li>Body entities are filtered like apache wire logging.
  * Special characters are displayed as hex.</li>
  * <li>Uses logback instead of JUL logger.</li>
  * <li>Uses debug level instead of info.</li>
  * </ul>
- *
- * @author Fritz Elfert
- * @author Pavel Bucek (pavel.bucek at oracle.com)
- * @author Martin Matula
  */
 
 @PreMatching
