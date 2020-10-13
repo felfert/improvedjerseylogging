@@ -13,7 +13,7 @@
     <groupId>com.github.felfert</groupId>
     <artifactId>improvedjerseylogging</artifactId>
     <name>Improved request logging for jersey</name>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.5</version>
     <description>A better logging filter for Jersey</description>
     <url>https://jenkins.cl1.dataspace.cc/job/improvedjerseylogging</url>
 
@@ -29,7 +29,7 @@
         <connection>scm:git:https://github.com/felfert/improvedjerseylogging.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/felfert/improvedjerseylogging.git</developerConnection>
         <url>http://github.com/felfert/improvedjerseylogging</url>
-        <tag>HEAD</tag>
+        <tag>improvedjerseylogging-1.5</tag>
     </scm>
 
     <developers>
